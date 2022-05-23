@@ -1,0 +1,80 @@
+
+.navbar{
+  background-color:#0f0f0f !important;
+  border:2px solid white ;
+  
+
+}
+.navbar-nav > li > a{
+    color: aliceblue !important;
+    justify-content: space-around;
+}
+.navbar-brand{
+    color: aliceblue !important;
+}
+.logo{
+    height: auto;
+    width: 50px;
+    margin-left: 40px ;
+}
+.tech{
+    display:inline-flex ;
+    margin:10px ;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    /* text-decoration: underline; */
+}
+.navbar-brand :hover{
+    color:  red;
+}
+.fa-solid{
+    margin:6px !important ;
+}
+.navbar-text{
+    font-weight: bolder;
+}
+
+  
+.navbar-text {
+   margin-right:50px ;
+}
+.nav-item>a>i:hover{
+    color: red;
+}
+.carousel-caption > h5{
+  color: red;
+  font-size: 40px;
+  /* text-align: center; */
+}
+.carousel-caption > p{
+    color: black;
+}
+.carousel-caption{
+  position: absolute;
+}
+.text_heading{
+  position: fixed;
+  /* right:910px ;
+  bottom:550px ; */
+  left: 30px;
+  top: 370px;
+  font-size: 45px;
+  
+  
+  
+}
+.text_para{
+    font-size: 19px;
+    position: fixed;
+    /* right:1234px ;
+  bottom:450px ; */
+  left:30px ;
+  top:435px ;
+}
+@media screen (max width:998px) {
+    .navbar{
+        backgroung-color:white !important;
+    }
+}
